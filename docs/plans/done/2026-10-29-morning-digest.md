@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-05
 ---
 
 # Morning digest
@@ -77,3 +78,16 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by | Worker | Closed |
+|---|-------|------------|--------|--------|
+| [1](https://github.com/damianrusinek/s01e04/issues/1) | Define the digest data contract | — | Codex · gpt-6-astra · high | 2026-11-05 |
+| [2](https://github.com/damianrusinek/s01e04/issues/2) | Implement the run log reader | #1 | Codex · gpt-6-astra · high | 2026-11-05 |
+| [3](https://github.com/damianrusinek/s01e04/issues/3) | Render the digest HTML page | #1 | Codex · gpt-6-luna · medium | 2026-11-05 |
+| [4](https://github.com/damianrusinek/s01e04/issues/4) | Add the digest JSON API | #1 | Codex · gpt-6-luna · medium | 2026-11-05 |
+| [5](https://github.com/damianrusinek/s01e04/issues/5) | Link status-board nights to digests | #1 | Codex · gpt-6-luna · medium | 2026-11-05 |
+| [6](https://github.com/damianrusinek/s01e04/issues/6) | Test digest routes | #1 | Codex · gpt-6-luna · medium | 2026-11-05 |
+| [7](https://github.com/damianrusinek/s01e04/issues/7) | Publish the marked digest preview for review | #2, #3, #4, #5, #6 | Codex · GPT-5 · standard | 2026-11-05 |
+| [8](https://github.com/damianrusinek/s01e04/issues/8) | Remove the preview marker and archive the plan | #7 | Codex · GPT-5 · standard | 2026-11-05 |
